@@ -8,36 +8,52 @@ The goal is to **visualize accident patterns** and build a simple **decision tre
 
 ## 📂 Project Structure
 
-AccidentProject/
+RoadSafetyProject/
 
-│── severity.py # Accident severity analysis (India)
+│── Accidents0515.csv  
 
-│── timeofdayUK.py # Time of day & weekday accident analysis (UK)
+│── Data_Final.csv  
 
-│── faultandtype.py # Accident causes & vehicle type involvement
+│── datafile_4.csv  
 
-│── dt.r # Decision tree classification (R)
+│── Traffic accidents by time of occurrence 2001-2014.csv  
 
-│── Data_Final.csv # Accident dataset (India)
 
-│── datafile_4.csv # Fault type dataset (India)
+│── severity.py  
 
-│── Traffic accidents by time of occurrence 2001-2014.csv # Time-based dataset (India)
+│── timeofdayUK.py  
 
-│── Accidents0515.csv # Accident dataset (UK)
+│── time_of_day_india.py  
 
-│── images/ # Output plots
+│── fault_and_type.py  
 
-│ │── severity_plot.png
+│── random_forest_accidents.py  
 
-│ │── timeofday_plot.png
+│── decision_tree_accidents.r  
 
-│ │── fault_donut.png
 
-│ │── decision_tree_accidents.png
+│── Snapshots/  
 
-│── README.md # Project documentation
+│   │── dayoftheweek_alcohol.png  
 
+│   │── faults.png  
+
+│   │── type.png  
+
+│   │── asi.png  
+
+│   │── severity_plot.png  
+
+│   │── timeofday_plot.png  
+
+│   │── fault_donut.png  
+
+│   │── decision_tree_accidents.png  
+
+
+│── README.md  
+
+│── requirements.txt  
 
 ---
 
